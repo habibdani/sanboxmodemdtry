@@ -1,0 +1,5 @@
+displayName: "Campain unlocker"
+name: "mindustry-campain-unlocker"
+description: "Unlocks sources and voids in campagin."
+version: 1.0
+minGameVersion: 145
