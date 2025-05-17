@@ -7,7 +7,7 @@
     "reload": 312,
     "inaccuracy": 5,
     "shootSound": "explosion",
-    "range": 5040,
+    "range": 8040,
     "rotateSpeed": 3,
     "targetGround": true,
     "targetAir": true,
@@ -123,6 +123,20 @@
             "ammoMultiplier": 1
           }
     },
+    "research": "Conqueror",
     "category": "turret",
-    "shootShake":2
+    "shootShake":2,
+    "requirements": [    
+        "copper/1500",
+        "lead/1000",
+        "plastanium/600",
+        "titanium/400",
+        "surge-alloy/350",
+        "silicon/800"
+    ],
+    "liquidCapacity":30,
+    "consumes":{
+		"coolant":{"liquid": "cryofluid", "amount":0.4,"optional":true}
+	},
+    "coolantMultiplier": 1
 }
