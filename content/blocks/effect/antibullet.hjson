@@ -10,5 +10,6 @@ shapeSides: 8
 size: 3
 health: 999999999
 category: effect
+alwaysUnlocked: true
 requirements: [
 ]
