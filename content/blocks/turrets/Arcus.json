@@ -7,7 +7,7 @@
     "reload": 937.5,
     "inaccuracy": 0,
     "shootSound": "explosion",
-    "range": 800,
+    "range": 8000,
     "rotateSpeed": 0.7,
     "targetGround": true,
     "targetAir": false,
@@ -121,7 +121,7 @@
             "hitShake":2
           }
     },
-    "research": "foreshadow",
+    "alwaysUnlocked": true,
     "category": "turret",
     "shootShake":2,
     "requirements": [    

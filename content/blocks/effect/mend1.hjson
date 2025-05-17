@@ -7,3 +7,5 @@ reload: 1
 requirements: [
 ]
 category: effect
+alwaysUnlocked: true
+

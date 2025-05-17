@@ -11,3 +11,4 @@ consumes: {
 requirements: [
 ]
 category: effect
+alwaysUnlocked: true

@@ -7,5 +7,6 @@
   "hasItems": false,
   "configurable": true,
   "category": "effect",
+  "alwaysUnlocked": true,
   "requirements": []
 }

@@ -11,3 +11,4 @@ shieldRotation: 22.5
 requirements: [
 ]
 category: effect
+alwaysUnlocked: true

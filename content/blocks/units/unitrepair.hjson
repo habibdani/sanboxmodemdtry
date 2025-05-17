@@ -9,3 +9,4 @@ consumes: {
 requirements: [
 ]
 category: units
+alwaysUnlocked: true

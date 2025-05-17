@@ -6,3 +6,4 @@ range: 999
 requirements: [
 ]
 category: effect
+alwaysUnlocked: true

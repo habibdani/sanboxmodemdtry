@@ -6,5 +6,6 @@
     "hasItems": true,
     "configurable": true,
     "category": "distribution",
+    "alwaysUnlocked": true,
     "requirements": []
 }

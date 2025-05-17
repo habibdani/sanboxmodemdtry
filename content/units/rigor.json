@@ -13,6 +13,8 @@
   "accel": 0.09,
   "drag": 0.08,
 
+  "canReplaceDestroyedBuildings": true,
+
   "mineWalls": true,
   "mineFloor": true,
   "mineSpeed": 9999999,
