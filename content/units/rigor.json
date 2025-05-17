@@ -30,6 +30,13 @@
       "sectors": 1,
       "effectRadius": 1
     },
+     {
+        "type": "mindustry.entities.abilities.RepairFieldAbility",
+        "percent": 1,
+        "reload": 10,
+        "range": 100,
+        "healColor": "ffd37f"
+    },
     {
       "type": "mindustry.entities.abilities.StatusFieldAbility",
       "duration": 5,
@@ -65,7 +72,7 @@
       "mirror": true,
       "alternate": false,
       "reload": 150,
-      "range": 620,
+      "range": 2520,
       "recoil": 0,
       "layerOffset": 0.004,
       "shoot": {
