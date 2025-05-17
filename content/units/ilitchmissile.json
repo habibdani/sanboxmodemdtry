@@ -9,7 +9,7 @@
   "rotateSpeed": 5,
   "controller": "MissileAI",
   "lowAltitude": true,
-  "lifetime": 120,
+  "lifetime": 320,
   "isEnemy": false,
   "allowedInPayloads": false,
   "playerControllable": false,
@@ -37,7 +37,7 @@
         "type": "ExplosionBulletType",
         "killShooter": true,
         "keepVelocity": false,
-        "splashDamage": 400,
+        "splashDamage": 40,
         "splashDamageRadius": 40,
         "status": "shocked",
         "hitEffect": {

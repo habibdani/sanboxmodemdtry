@@ -58,13 +58,14 @@
   "weapons": [
     {
       "name": "ilitch-bombard",
-      "y": -25,
-      "x": -30,
+      "y": -10,
+      "x": -13,
       "shootY": 0,
       "top": true,
       "mirror": true,
       "alternate": false,
-      "reload": 300,
+      "reload": 150,
+      "range": 620,
       "recoil": 0,
       "layerOffset": 0.004,
       "shoot": {
