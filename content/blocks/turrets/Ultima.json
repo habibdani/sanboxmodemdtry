@@ -12,7 +12,7 @@
     "targetGround": true,
     "targetAir": true,
     "hasLiquids":true,
-    "maxAmmo": 1,
+    "maxAmmo": 5,
     "hasPower": true,
     "ammoPerShot": 1,
     "shoot":{
