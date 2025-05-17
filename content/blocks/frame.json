@@ -1,0 +1,25 @@
+{
+
+    "type": "UnitAssembler",
+    "name": "Frame: Serpulo",
+    "details": "Use one unit at a time",
+    "description": "Constructs a [accent]Rigor",
+
+
+    "size": 3,
+    "areaSize": 10,
+    "droneType": "assembly-drone",
+    "dronesCreated": 4,
+    "droneConstructTime": 45,
+    "consume": {},
+    "plans": [{
+        "unit": "rigor",
+        "requirements": [],
+        "time": 120
+    }
+    ],
+    
+    
+    "requirements": [],
+    "category": "units"
+}

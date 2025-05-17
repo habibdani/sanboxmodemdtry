@@ -1,0 +1,60 @@
+{
+
+    "description": "Armored core unit. [accent]Packs some punch",
+    "name": "Rigor: Erekir",
+    "details": "Insane build speed, fast minning speed, packs a punch, healing ability and one thick healthbar ",
+
+
+    "type": "flying",
+    "template": "ErekirUnitType",
+    "flying": true,
+    "lowAltitude": true,
+    "health": 9999999,
+    "armor": 999,
+    "hitSize": 25,
+    "speed": 4,
+    "rotateSpeed": 10,
+    "accel": 0.09,
+    "drag": 0.08,
+
+
+    "mineWalls": true,
+    "mineFloor": true,
+    "mineSpeed": 9999999,
+    "mineTier": 9999999,
+    "buildSpeed": 999,
+    "itemCapacity": 99,
+
+
+    "abilities": [{
+        "type": "EnergyFieldAbility",
+        "color": "d06b53",
+        "damage": 999,
+        "rotateSpeed": 20,
+        "reload": 1,
+        "sectors": 2,
+        "effectRadius": 1
+    },
+        {
+            "type": "mindustry.entities.abilities.StatusFieldAbility",
+            "duration" : 5,
+            "range" : 1,
+            "reload" : 1,
+            "effect": "none",
+            "activeEffect": {
+                "type": "multiEffect",
+                "effects": [{
+                    "type": "ParticleEffect",
+                    "particles": 1,
+                    "colorFrom": "ffa665",
+                    "colorTo": "d06b53",
+                    "sizeFrom": 3,
+                    "sizeTo": 1,
+                    "length": 0.01,
+                    "lifetime": 30,
+                    "lightOpacity": 0.2
+                }]
+            }
+        }]
+
+}
