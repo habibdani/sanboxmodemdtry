@@ -66,7 +66,7 @@
     {
       "name": "ilitch-bombard",
       "y": -10,
-      "x": -13,
+      "x": -20,
       "shootY": 0,
       "top": true,
       "mirror": true,
