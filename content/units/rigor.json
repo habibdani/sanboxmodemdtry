@@ -67,13 +67,13 @@
   "weapons": [
     {
       "name": "ilitch-bombard",
-      "y": -10,
-      "x": -20,
+      "y": -5,
+      "x": -14,
       "shootY": 0,
       "top": true,
       "mirror": true,
       "alternate": false,
-      "reload": 150,
+      "reload": 500,
       "range": 2520,
       "recoil": 0,
       "layerOffset": 0.004,
@@ -111,7 +111,7 @@
               "type": "WaveEffect",
               "sizeTo": 10,
               "colorTo": "C44B5E",
-              "lifetime": 10
+              "lifetime": 100
             }
           ]
         },
