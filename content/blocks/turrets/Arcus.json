@@ -14,7 +14,7 @@
     "hasLiquids":true,
     "maxAmmo": 10,
     "hasPower": true,
-    "ammoPerShot": 10,
+    "ammoPerShot": 1,
     "shoot":{
         "type": "ShootMulti",
         "source": "ShootAlternate",
