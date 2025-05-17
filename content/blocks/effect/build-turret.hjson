@@ -6,5 +6,6 @@ targetInterval: 1
 size: 3
 health: 999999999
 category: effect
+alwaysUnlocked: true
 requirements: [
 ]
