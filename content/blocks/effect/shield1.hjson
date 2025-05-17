@@ -2,7 +2,7 @@ type: ForceProjector
 health: 999999999
 size: 3
 canOverdrive: true
-radius: 400
+radius: 200
 shieldHealth: 999999999
 cooldownNormal: 3500000
 cooldownBrokenBase: 1300000

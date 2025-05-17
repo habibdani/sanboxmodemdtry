@@ -1,58 +1,112 @@
 {
+  "description": "Armored core unit. [accent]Packs some punch",
+  "name": "Rigor",
+  "details": "Insane build speed, fast mining speed, packs a punch, healing ability and one thick healthbar",
 
-    "description": "Armored core unit. [accent]Packs some punch",
-    "name": "Rigor",
-    "details": "Insane build speed, fast minning speed, packs a punch, healing ability and one thick healthbar ",
+  "flying": true,
+  "lowAltitude": true,
+  "health": 9999999,
+  "armor": 999,
+  "hitSize": 25,
+  "speed": 4,
+  "rotateSpeed": 10,
+  "accel": 0.09,
+  "drag": 0.08,
 
+  "mineWalls": true,
+  "mineFloor": true,
+  "mineSpeed": 9999999,
+  "mineTier": 9999999,
+  "buildSpeed": 999,
+  "itemCapacity": 99,
 
-    "flying": true,
-    "lowAltitude": true,
-    "health": 9999999,
-    "armor": 999,
-    "hitSize": 25,
-    "speed": 4,
-    "rotateSpeed": 10,
-    "accel": 0.09,
-    "drag": 0.08,
-
-
-    "mineWalls": true,
-    "mineFloor": true,
-    "mineSpeed": 9999999,
-    "mineTier": 9999999,
-    "buildSpeed": 999,
-    "itemCapacity": 99,
-
-
-    "abilities": [{
-        "type": "EnergyFieldAbility",
-        "color": "ffd280",
-        "damage": 999,
-        "rotateSpeed": 30,
-        "reload": 1,
-        "sectors": 1,
-        "effectRadius": 1
+  "abilities": [
+    {
+      "type": "EnergyFieldAbility",
+      "color": "ffd280",
+      "damage": 999,
+      "rotateSpeed": 30,
+      "reload": 1,
+      "sectors": 1,
+      "effectRadius": 1
     },
-        {
-            "type": "mindustry.entities.abilities.StatusFieldAbility",
-            "duration" : 5,
-            "range" : 1,
-            "reload" : 1,
-            "effect": "none",
-            "activeEffect": {
-                "type": "multiEffect",
-                "effects": [{
-                    "type": "ParticleEffect",
-                    "particles": 1,
-                    "colorFrom": "ffd280",
-                    "colorTo": "d4816a",
-                    "sizeFrom": 3,
-                    "sizeTo": 1,
-                    "length": 0.01,
-                    "lifetime": 30,
-                    "lightOpacity": 0.2
-                }]
-            }
-        }]
+    {
+      "type": "mindustry.entities.abilities.StatusFieldAbility",
+      "duration": 5,
+      "range": 1,
+      "reload": 1,
+      "effect": "none",
+      "activeEffect": {
+        "type": "multiEffect",
+        "effects": [
+          {
+            "type": "ParticleEffect",
+            "particles": 1,
+            "colorFrom": "ffd280",
+            "colorTo": "d4816a",
+            "sizeFrom": 3,
+            "sizeTo": 1,
+            "length": 0.01,
+            "lifetime": 30,
+            "lightOpacity": 0.2
+          }
+        ]
+      }
+    }
+  ],
 
+  "weapons": [
+    {
+      "name": "ilitch-bombard",
+      "y": -25,
+      "x": -30,
+      "shootY": 0,
+      "top": true,
+      "mirror": true,
+      "alternate": false,
+      "reload": 300,
+      "recoil": 0,
+      "layerOffset": 0.004,
+      "shoot": {
+        "type": "ShootBarrel",
+        "barrels": [
+          -7, 19, 45,
+          -7, 16, 47,
+          -7, 13, 49,
+          -7, 10, 51,
+          -6, 7, 53,
+          -6, 4, 55,
+          -6, 1, 57,
+          -7, -2, 59,
+          -7, -5, 61,
+          -7, -8, 63,
+          -7, -11, 65,
+          -7, -14, 67,
+          -7, -17, 69
+        ],
+        "shots": 34,
+        "shotDelay": 2.5,
+        "firstShotDelay": 0
+      },
+      "rotate": false,
+      "shootSound": "launchLycor",
+      "shootCone": 120,
+      "bullet": {
+        "spawnUnit": "ilitchmissile",
+        "shootEffect": {
+          "type": "MultiEffect",
+          "effects": [
+            "shootBigColor",
+            {
+              "type": "WaveEffect",
+              "sizeTo": 10,
+              "colorTo": "C44B5E",
+              "lifetime": 10
+            }
+          ]
+        },
+        "smokeEffect": "shootBigSmoke2"
+      }
+    }
+  ]
 }

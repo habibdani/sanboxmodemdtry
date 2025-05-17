@@ -1,5 +1,5 @@
 type: ShockwaveTower
-range: 400
+range: 200
 reload: 1
 bulletDamage: 999999999
 checkInterval: 1
