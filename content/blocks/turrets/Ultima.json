@@ -45,7 +45,7 @@
             "height": 4,
             "shootEffect": "shootBig",
             "smokeEffect": "shootBigSmoke",
-            "lifetime": 80,
+            "lifetime": 700,
             "hitEffect": "hitMeltdown",
             "splashDamage": 250,
             "splashDamageRadius":15,
