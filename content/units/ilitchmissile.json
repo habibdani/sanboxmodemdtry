@@ -9,7 +9,7 @@
   "rotateSpeed": 5,
   "controller": "MissileAI",
   "lowAltitude": true,
-  "lifetime": 320,
+  "lifetime": 420,
   "isEnemy": false,
   "allowedInPayloads": false,
   "playerControllable": false,
@@ -24,7 +24,7 @@
   "trailLength": 12,
   "trailScl": 0.9,
   "trailColor": "C44B5E",
-  "missileAccelTime": 15,
+  "missileAccelTime": 10,
 
   "weapons": [
     {

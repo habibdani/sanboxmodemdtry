@@ -67,8 +67,8 @@
   "weapons": [
     {
       "name": "ilitch-bombard",
-      "y": -10,
-      "x": -20,
+      "y": -5,
+      "x": -14,
       "shootY": 0,
       "top": true,
       "mirror": true,
@@ -111,7 +111,7 @@
               "type": "WaveEffect",
               "sizeTo": 10,
               "colorTo": "C44B5E",
-              "lifetime": 10
+              "lifetime": 100
             }
           ]
         },
