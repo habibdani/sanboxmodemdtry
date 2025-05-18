@@ -6,7 +6,7 @@
   "flying": true,
   "health": 400,
   "hitSize": 10,
-  "rotateSpeed": 100,
+  "rotateSpeed": 180,
   "controller": "MissileAI",
   "lowAltitude": true,
   "lifetime": 420,
@@ -24,7 +24,7 @@
   "trailLength": 12,
   "trailScl": 0.9,
   "trailColor": "C44B5E",
-  "missileAccelTime": 10,
+  "missileAccelTime": 60,
 
   "weapons": [
     {
