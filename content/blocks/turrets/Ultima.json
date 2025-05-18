@@ -127,12 +127,6 @@
     "category": "turret",
     "shootShake":2,
     "requirements": [    
-        "copper/1500",
-        "lead/1000",
-        "plastanium/600",
-        "titanium/400",
-        "surge-alloy/350",
-        "silicon/800"
     ],
     "liquidCapacity":30,
     "consumes":{
