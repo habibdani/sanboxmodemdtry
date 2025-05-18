@@ -14,7 +14,7 @@
   "homingPower": 1.0,
   "homingRange": 240,
   "lowAltitude": true,
-  "lifetime": 300,
+  "lifetime": 150,
   "isEnemy": false,
   "allowedInPayloads": false,
   "playerControllable": false,
@@ -33,11 +33,15 @@
 
   "weapons": [
     {
-      "name": "missile-explode",
+      "name": "missile-autoexplode",
+      "reload": 9999,
+      "x": 0,
+      "y": 0,
       "shootCone": 360,
+      "inaccuracy": 0,
       "shootOnDeath": true,
-      "controllable": true,
-      "shootSound": "none",
+      "shoot": true,
+      "mirror": false,
       "bullet": {
         "type": "ExplosionBulletType",
         "killShooter": true,
