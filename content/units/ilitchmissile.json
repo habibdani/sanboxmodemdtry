@@ -6,54 +6,33 @@
   "flying": true,
   "health": 400,
   "hitSize": 10,
-  "rotateSpeed": 360,
+  "rotateSpeed": 999,
   "controller": "MissileAI",
   "targetAir": true,
   "targetGround": true,
-  "homingPower": 1.2,
-  "homingRange": 260,
+  "targetProximity": 8,
+  "homingPower": 5,
+  "homingRange": 200,
+  "pathfind": false,
   "lowAltitude": true,
-  "lifetime": 180,
-  "isEnemy": false,
-  "allowedInPayloads": false,
-  "playerControllable": false,
-  "physics": false,
-  "useUnitCap": false,
-  "createWreck": false,
-  "createScorch": false,
-  "hidden": true,
+  "lifetime": 120,
   "engineOffset": 1,
   "engineSize": 2,
   "engineColor": "C44B5E",
   "trailLength": 14,
-  "trailScl": 1,
   "trailColor": "C44B5E",
   "missileAccelTime": 0,
-
   "weapons": [
     {
       "name": "missile-explode",
       "shootCone": 360,
       "shootOnDeath": true,
       "controllable": false,
-      "shootSound": "none",
       "bullet": {
         "type": "ExplosionBulletType",
         "killShooter": true,
-        "keepVelocity": false,
         "splashDamage": 60,
-        "splashDamageRadius": 48,
-        "status": "shocked",
-        "hitEffect": {
-          "type": "ExplosionEffect",
-          "waveColor": "C44B5E",
-          "smokeColor": "C44B5E",
-          "sparkColor": "C44B5E",
-          "waveRad": 40,
-          "sparkRad": 60,
-          "smokeSize": 4,
-          "smokeRad": 45
-        }
+        "splashDamageRadius": 48
       }
     }
   ]
