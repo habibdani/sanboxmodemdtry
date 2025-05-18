@@ -10,6 +10,7 @@
   "controller": "MissileAI",
   "targetAir": true,
   "targetGround": true,
+  "targetProximity": 10,
   "homingPower": 0.5,
   "homingRange": 240,
   "lowAltitude": true,
