@@ -8,7 +8,6 @@
   "hitSize": 10,
   "rotateSpeed": 180,
   "controller": "MissileAI",
-  "targetFlags": ["unit"],
   "targetAir": true,
   "targetGround": true,
   "homingPower": 0.5,
