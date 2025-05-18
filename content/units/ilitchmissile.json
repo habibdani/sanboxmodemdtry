@@ -6,7 +6,7 @@
   "flying": true,
   "health": 400,
   "hitSize": 10,
-  "rotateSpeed": 5,
+  "rotateSpeed": 100,
   "controller": "MissileAI",
   "lowAltitude": true,
   "lifetime": 420,
