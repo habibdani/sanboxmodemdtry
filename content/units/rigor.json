@@ -102,35 +102,39 @@
       "shootSound": "launchLycor",
       "shootCone": 120,
       "bullet": {
-        "type": "MissileBulletType",
-        "frontColor": "e53935",
-        "backColor": "ffccbc",
-        "speed": 5.5,
-        "damage": 80,
-        "width": 3.5,
-        "height": 6,
-        "lifetime": 120,
-        "hitEffect": {
-          "type": "ExplosionEffect",
-          "waveColor": "e53935",
-          "smokeColor": "ffccbc",
-          "sparkColor": "ffcdd2",
-          "waveRad": 40,
-          "smokeRad": 45
-        },
-        "splashDamage": 45,
-        "splashDamageRadius": 40,
-        "buildingDamageMultiplier": 0.7,
-        "trailLength": 8,
-        "trailWidth": 2.5,
-        "trailColor": "ffccbc",
-        "status": "shocked",
-        "homingPower": 1.5,
-        "homingRange": 120,
-        "shootEffect": "shootBigColor",
-        "smokeEffect": "shootBigSmoke2",
-        "ammoMultiplier": 1
-      }
+      "type": "MissileBulletType",
+      "frontColor": "e53935",
+      "backColor": "ffccbc",
+      "speed": 1.8,                        
+      "accel": 0.13,                       
+      "damage": 80,
+      "width": 3.5,
+      "height": 6,
+      "lifetime": 120,
+      "hitEffect": {
+        "type": "ExplosionEffect",
+        "waveColor": "e53935",
+        "smokeColor": "ffccbc",
+        "sparkColor": "ffcdd2",
+        "waveRad": 40,
+        "smokeRad": 45
+      },
+      "splashDamage": 45,
+      "splashDamageRadius": 40,
+      "buildingDamageMultiplier": 0.7,
+      "trailLength": 8,
+      "trailWidth": 2.5,
+      "trailColor": "ffccbc",
+      "status": "shocked",
+      "homingPower": 1.5,                 
+      "homingRange": 120,
+      "homingDelay": 30,                  
+      "keepVelocity": false,              
+      "shootEffect": "shootBigColor",
+      "smokeEffect": "shootBigSmoke2",
+      "ammoMultiplier": 1
+    }
+
     }
   ]
 }
