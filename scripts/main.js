@@ -3,8 +3,8 @@ require('super-cheat/chrono-pusher');
 require('super-cheat/next-wave');
 
 Events.on(ClientLoadEvent, () => {
-    // Pastikan blok sandbox bisa terlihat
-    [
+    // Pertama atur blok sandbox agar terlihat
+    const sandboxBlocks = [
         Blocks.payloadSource,
         Blocks.itemSource,
         Blocks.powerSource,
@@ -14,7 +14,9 @@ Events.on(ClientLoadEvent, () => {
         Blocks.liquidSource,
         Blocks.liquidVoid,
         Blocks.heatSource
-    ].forEach(block => {
+    ];
+
+    sandboxBlocks.forEach(block => {
         if (block != null) {
             block.buildVisibility = BuildVisibility.shown;
             block.unlocked = true;
@@ -22,14 +24,14 @@ Events.on(ClientLoadEvent, () => {
         }
     });
 
-    // Tunda modifikasi untuk memastikan semua konten termuat
     Time.run(10, () => {
         Vars.content.blocks().each(block => {
-            if (block != null && block != Blocks.air) {
-                block.unlocked = true;
-                block.alwaysUnlocked = true;
-                block.buildVisibility = BuildVisibility.shown;
-            }
+            // Jangan timpa blok sandbox yang sudah kita atur
+            if (block == null || block == Blocks.air || sandboxBlocks.includes(block)) return;
+
+            block.unlocked = true;
+            block.alwaysUnlocked = true;
+            block.buildVisibility = BuildVisibility.shown;
         });
 
         if (Vars.content.techTree != null) {
@@ -41,10 +43,9 @@ Events.on(ClientLoadEvent, () => {
             });
         }
 
-        // Tambahkan ability setelah semua unit tersedia
+        // Tambahkan ability jika renale tersedia
         const units = [UnitTypes.alpha, UnitTypes.beta, UnitTypes.gamma];
         const ability = UnitTypes.renale?.abilities?.get(0);
-
         if (ability != null) {
             units.forEach(unit => {
                 unit.abilities.add(ability.copy());
@@ -53,10 +54,8 @@ Events.on(ClientLoadEvent, () => {
             UnitTypes.alpha.abilities.get(0).percentAmount = 0.0417 * 1000;
             UnitTypes.beta.abilities.get(0).percentAmount = 0.0556 * 1000;
             UnitTypes.gamma.abilities.get(0).percentAmount = 0.0834 * 1000;
-        } else {
-            print("[Mod] Ability dari renale tidak ditemukan.");
         }
 
-        Vars.ui.showInfoToast("Semua blok telah dibuka!", 5);
+        Vars.ui.showInfoToast("Semua block termasuk sandbox telah dibuka!", 5);
     });
 });
