@@ -67,14 +67,14 @@
   "weapons": [
     {
       "name": "ilitch-bombard",
-      "y": -5,
+      "y": -2,
       "x": -14,
       "shootY": 0,
       "top": true,
       "mirror": true,
       "alternate": false,
-      "reload": 150,
-      "range": 500,
+      "reload": 350,
+      "range": 300,
       "recoil": 0,
       "layerOffset": 0.004,
       "shoot": {
@@ -102,20 +102,34 @@
       "shootSound": "launchLycor",
       "shootCone": 120,
       "bullet": {
-        "spawnUnit": "ilitchmissile",
-        "shootEffect": {
-          "type": "MultiEffect",
-          "effects": [
-            "shootBigColor",
-            {
-              "type": "WaveEffect",
-              "sizeTo": 10,
-              "colorTo": "C44B5E",
-              "lifetime": 100
-            }
-          ]
+        "type": "MissileBulletType",
+        "frontColor": "e53935",
+        "backColor": "ffccbc",
+        "speed": 5.5,
+        "damage": 80,
+        "width": 3.5,
+        "height": 6,
+        "lifetime": 120,
+        "hitEffect": {
+          "type": "ExplosionEffect",
+          "waveColor": "e53935",
+          "smokeColor": "ffccbc",
+          "sparkColor": "ffcdd2",
+          "waveRad": 40,
+          "smokeRad": 45
         },
-        "smokeEffect": "shootBigSmoke2"
+        "splashDamage": 45,
+        "splashDamageRadius": 40,
+        "buildingDamageMultiplier": 0.7,
+        "trailLength": 8,
+        "trailWidth": 2.5,
+        "trailColor": "ffccbc",
+        "status": "shocked",
+        "homingPower": 1.5,
+        "homingRange": 120,
+        "shootEffect": "shootBigColor",
+        "smokeEffect": "shootBigSmoke2",
+        "ammoMultiplier": 1
       }
     }
   ]
