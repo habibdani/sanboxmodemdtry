@@ -103,10 +103,10 @@
       "shootCone": 120,
       "bullet": {
         "type": "MissileBulletType",
-        "sprite": "units/ilitchmissile",
+        "name": "ilitchmissile",
         "frontColor": "e53935",
         "backColor": "ffccbc",
-        "speed": 0.07,
+        "speed": 0.03,
         "accel": 0.1,
         "damage": 80,
         "width": 3.5,
