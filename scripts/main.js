@@ -17,3 +17,20 @@ units.forEach(e=>e.abilities.add(UnitTypes.renale.abilities.get(0)));
 UnitTypes.alpha.abilities.get(0).percentAmount = 0.0417 * 1000;
 UnitTypes.beta.abilities.get(0).percentAmount = 0.0556 * 1000;
 UnitTypes.gamma.abilities.get(0).percentAmount = 0.0834 * 1000;
+
+Events.on(ClientLoadEvent, () => {
+    Time.run(10, () => { // tunda sedikit agar semua mod termuat
+        Vars.content.blocks().each(block => {
+            block.unlocked = true;
+            block.alwaysUnlocked = true;
+            block.buildVisibility = BuildVisibility.shown;
+        });
+
+        Vars.content.techTree.each(node => {
+            node.content.unlocked = true;
+            node.content.alwaysUnlocked = true;
+        });
+
+        Vars.ui.showInfoToast("Semua blok (termasuk dari mod) telah dibuka!", 5);
+    });
+});
