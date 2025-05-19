@@ -109,8 +109,8 @@
         "speed": 0.01,
         "accel": 0.05,
         "damage": 80,
-        "width": 3.5,
-        "height": 6,
+        "width": 6,
+        "height": 16,
         "lifetime": 2000,
         "hitEffect": {
           "type": "ExplosionEffect",
