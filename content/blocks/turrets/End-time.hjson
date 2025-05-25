@@ -113,14 +113,6 @@ outlineColor: "2a2c35"
 outlineRadius: 4
 range: 674
 category: turret
-research: {
-    parent: smite
-objectives: [
-    {
-      type: SectorComplete
-      preset: the-final
-    }
-  ]
-}
+alwaysUnlocked: true
 requirements: [
 ]
