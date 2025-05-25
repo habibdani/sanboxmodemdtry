@@ -11,7 +11,7 @@ Blocks.heatSource.buildVisibility = BuildVisibility.shown;
 require('super-cheat/chrono-unloader')
 require('super-cheat/chrono-pusher')
 require('super-cheat/next-wave')
-require('blocks/cc')
+require('super-cheat/cc')
 
 const units = [UnitTypes.alpha,UnitTypes.beta,UnitTypes.gamma];
 units.forEach(e=>e.abilities.add(UnitTypes.renale.abilities.get(0)));
