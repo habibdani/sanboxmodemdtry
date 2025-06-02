@@ -2,12 +2,12 @@
   type: turret
   name: cryoflame
   size: 1
-  health: 750
+  health: 750000
   alwaysUnlocked: true
   requirements: []
-  reload: 20
-  range: 80
-  rotateSpeed: 6
+  reload: 1
+  range: 120
+  rotateSpeed: 20
   coolantMultiplier: 1
   inaccuracy: 5
   targetAir: true
@@ -18,13 +18,13 @@
     damage: 5
     lifetime: 30
     speed: 2.5
-    knockback: 0.3
+    knockback: 50
     puddleSize: 6
     orbSize: 3
     statusDuration: 60
   }
   consumeLiquids: {
-    cryofluid: 3
+    cryofluid: 1
   }
   ammo: {
     cryofluid: cryofluid
