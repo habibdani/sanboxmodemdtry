@@ -1,6 +1,5 @@
 {
   type: turret
-  name: cryoflame
   size: 1
   health: 750000
   alwaysUnlocked: true
