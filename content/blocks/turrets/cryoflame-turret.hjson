@@ -6,7 +6,7 @@
   alwaysUnlocked: true
   requirements: []
   reload: 1
-  range: 400
+  range: 300
   recoil: 0.5
   inaccuracy: 5
   rotateSpeed: 10
@@ -22,9 +22,9 @@
     cryofluid: {
       type: LiquidBulletType
       liquid: cryofluid
-      damage: 5
+      damage: 10
       speed: 2.5
-      lifetime: 90
+      lifetime: 120
       knockback: 100
       puddleSize: 6
       orbSize: 3
