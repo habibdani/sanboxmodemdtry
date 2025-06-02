@@ -7,8 +7,8 @@ update(){
     //var coreBlock = Vars.world.tileWorld(core.x, core.y)
     for(y = 0; y < Vars.content.items().size; y++){
       var i = Vars.content.items().get(y);
-      if(core.items.get(i) < 10000000){
-        core.items.add(i, 100000)
+      if(core.items.get(i) < 1000000){
+        core.items.add(i, 10000)
       }
      }
 }

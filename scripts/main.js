@@ -7,11 +7,13 @@ Blocks.powerVoid.buildVisibility = BuildVisibility.shown;
 Blocks.liquidSource.buildVisibility = BuildVisibility.shown;
 Blocks.liquidVoid.buildVisibility = BuildVisibility.shown;
 Blocks.heatSource.buildVisibility = BuildVisibility.shown;
+Blocks.heatSource.alwaysUnlocked = true;
 
 require('super-cheat/chrono-unloader')
 require('super-cheat/chrono-pusher')
 require('super-cheat/next-wave')
 require('super-cheat/cc')
+require('super-cheat/electrum-conveyor')
 
 const units = [UnitTypes.alpha,UnitTypes.beta,UnitTypes.gamma];
 units.forEach(e=>e.abilities.add(UnitTypes.renale.abilities.get(0)));

@@ -9,6 +9,5 @@ consumes: {
 }
 requirements: [
 ]
-buildVisibility: lightingOnly
 alwaysUnlocked: true
 
