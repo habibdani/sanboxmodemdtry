@@ -6,14 +6,14 @@
   alwaysUnlocked: true
   requirements: []
   reload: 1
-  range: 120
+  range: 400
   recoil: 0.5
   inaccuracy: 5
   rotateSpeed: 10
   shootCone: 25
   shootSound: extinguish
   liquidCapacity: 30
-  ammoPerShot: 3
+  ammoPerShot: 1
   targetGround: true
   targetAir: true
   coolantUsage: 0
@@ -24,12 +24,12 @@
       liquid: cryofluid
       damage: 5
       speed: 2.5
-      lifetime: 30
-      knockback: 0.3
+      lifetime: 90
+      knockback: 100
       puddleSize: 6
       orbSize: 3
       status: freezing
-      statusDuration: 60
+      statusDuration: 1000
     }
   }
   category: turret
