@@ -17,16 +17,15 @@
     damage: 5
     lifetime: 30
     speed: 2.5
-    knockback: 50
+    knockback: 30
     puddleSize: 6
     orbSize: 3
     statusDuration: 60
   }
-  consumeLiquids: {
-    cryofluid: 1
-  }
-  ammo: {
-    cryofluid: cryofluid
+  liquidCapacity: 30
+  consumeLiquid: {
+    liquid: cryofluid
+    amount: 1
   }
   shootSound: extinguish
   shootCone: 25
