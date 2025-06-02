@@ -1,0 +1,38 @@
+{
+  type: turret
+  name: cryoflame
+  size: 1
+  health: 750
+  alwaysUnlocked: true
+  requirements: []
+  reload: 20
+  range: 80
+  rotateSpeed: 6
+  coolantMultiplier: 1
+  inaccuracy: 5
+  targetAir: true
+  targetGround: true
+  shootType: {
+    type: LiquidBulletType
+    liquid: cryofluid
+    damage: 5
+    lifetime: 30
+    speed: 2.5
+    knockback: 0.3
+    puddleSize: 6
+    orbSize: 3
+    statusDuration: 60
+  }
+  consumeLiquids: {
+    cryofluid: 3
+  }
+  ammo: {
+    cryofluid: cryofluid
+  }
+  shootSound: extinguish
+  shootCone: 25
+  recoil: 0.3
+  coolantUsage: 0
+  outlineColor: "2a2c35"
+  category: turret
+}
