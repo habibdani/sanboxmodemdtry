@@ -1,36 +1,36 @@
 {
-  type: turret
+  type: LiquidTurret
+  description: Shoots cryofluid to extinguish fire and slow enemies.
   size: 1
-  health: 750000
+  health: 75000
   alwaysUnlocked: true
   requirements: []
   reload: 1
   range: 120
-  rotateSpeed: 20
-  coolantMultiplier: 1
+  recoil: 0.5
   inaccuracy: 5
-  targetAir: true
-  targetGround: true
-  shootType: {
-    type: LiquidBulletType
-    liquid: cryofluid
-    damage: 5
-    lifetime: 30
-    speed: 2.5
-    knockback: 30
-    puddleSize: 6
-    orbSize: 3
-    statusDuration: 60
-  }
-  liquidCapacity: 30
-  consumeLiquid: {
-    liquid: cryofluid
-    amount: 1
-  }
-  shootSound: extinguish
+  rotateSpeed: 10
   shootCone: 25
-  recoil: 0.3
+  shootSound: extinguish
+  liquidCapacity: 30
+  ammoPerShot: 3
+  targetGround: true
+  targetAir: true
   coolantUsage: 0
-  outlineColor: "2a2c35"
+
+  ammoTypes: {
+    cryofluid: {
+      type: LiquidBulletType
+      liquid: cryofluid
+      damage: 5
+      speed: 2.5
+      lifetime: 30
+      knockback: 0.3
+      puddleSize: 6
+      orbSize: 3
+      status: freezing
+      statusDuration: 60
+    }
+  }
   category: turret
 }
