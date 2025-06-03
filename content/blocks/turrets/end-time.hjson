@@ -1,5 +1,5 @@
 type: PowerTurret
-size: 5
+size: 2
 health: 13850
 consumes: {
     power: 1
