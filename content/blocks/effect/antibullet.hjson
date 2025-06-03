@@ -7,7 +7,7 @@ waveColor: 736ad4
 shapeColor: 9763f7
 shapeRotateSpeed: 5
 shapeSides: 8
-size: 3
+size: 2
 health: 999999999
 category: effect
 alwaysUnlocked: true

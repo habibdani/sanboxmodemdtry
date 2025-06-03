@@ -1,6 +1,6 @@
 type: RegenProjector
 health: 999999999
-size: 3
+size: 2
 healPercent: 200
 range: 999
 requirements: [

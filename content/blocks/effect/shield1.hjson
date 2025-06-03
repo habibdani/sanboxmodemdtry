@@ -1,6 +1,6 @@
 type: ForceProjector
 health: 999999999
-size: 3
+size: 2
 canOverdrive: true
 radius: 200
 shieldHealth: 999999999

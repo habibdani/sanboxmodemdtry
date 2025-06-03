@@ -1,7 +1,7 @@
 type: BaseShield
 rebuildable: true
 health: 999999999
-size: 3
+size: 2
 sides: 8
 shieldRotation: 22.5
 smoothRadius: 999
