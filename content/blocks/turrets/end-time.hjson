@@ -5,9 +5,10 @@ consumes: {
     power: 1
 }
 shootType:{
-    type: ContinuousFlameBulletType
+    type: ContinuousLaserBulletType
     length: 674
     lifetime: 30
+    width:16
     damage: 500
     pierceCap: 3
     colors: ["ffffff", "ffffff", "ffffff"]
