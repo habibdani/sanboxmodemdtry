@@ -8,10 +8,10 @@ shootType:{
     type: ContinuousLaserBulletType
     length: 674
     lifetime: 30
-    width:16
+    width: 6
     damage: 500
     pierceCap: 3
-    colors: ["ffffff", "ffffff", "ffffff"]
+    colors: ["ffffff", "000000", "ffffff"]
     flareColor: ffffff
     hitColor: ffffff
     fragBullets: 1
