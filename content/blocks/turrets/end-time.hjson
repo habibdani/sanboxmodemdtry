@@ -38,7 +38,7 @@ hollow: true
 sides: 4
 stroke: 3
 radius: 12
-rotateSpeed: 2.3
+rotateSpeed: 3
 y: 18
 layer: 110
 }
@@ -51,7 +51,7 @@ color: 87ceeb
 sides: 4
 stroke: 3
 radius: 12
-rotateSpeed: -2.3
+rotateSpeed: -3
 y: 18
 layer: 110
 }
