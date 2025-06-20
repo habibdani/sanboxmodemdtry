@@ -1,7 +1,7 @@
 type: missile
 controller: MissileAI
 flying: true
-speed: 4.6
+speed: 14.6
 maxRange: 6
 lifetime: 180
 hidden: true
@@ -12,12 +12,12 @@ engineColor: c0ecff
 trailColor: c0ecff
 engineSize: 3.1
 engineOffset: 10
-rotateSpeed: 5
+rotateSpeed: 15
 trailLength: 18
 missileAccelTime: 50
 lowAltitude: true
 fogRadius: 6
-health: 190
+health: 19000
 allowedInPayloads: false
 useUnitCap: false
 playerControllable: false
