@@ -1,14 +1,14 @@
 type: PowerTurret
 size: 2
-health: 13850
+health: 138500
 consumes: {
     power: 1
 }
 shootType:{
     type: ContinuousLaserBulletType
-    length: 674
+    length: 1274
     lifetime: 30
-    width: 6
+    width: 8
     damage: 500
     pierceCap: 3
     colors: ["ffffff", "000000", "ffffff"]
@@ -107,12 +107,12 @@ y: -12
 shootSound: laser
 shootWarmupSpeed: 0.4
 shootCone: 360
-rotateSpeed: 0.65
+rotateSpeed: 0.95
 reload: 8
 recoil: 2.5
 outlineColor: "2a2c35"
 outlineRadius: 4
-range: 674
+range: 1274
 category: turret
 alwaysUnlocked: true
 requirements: [
